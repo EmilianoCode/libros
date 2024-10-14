@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "https://vercel.live/link/libros-gamma.vercel.app?via=deployment-domains-list&p=1")
+@CrossOrigin(origins = "https://libros-gamma.vercel.app/")
 public class BookController {
 
     // atributos

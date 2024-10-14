@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "https://libros-gamma.vercel.app/") // Acceso cors controller
+@CrossOrigin(origins = "https://libros-gamma.vercel.app") // Acceso cors controller
 public class BookController {
 
     // atributos
@@ -30,6 +30,7 @@ public class BookController {
      * http://localhost:8081/api/books
      * @return
      */
+    @CrossOrigin(origins = "https://libros-gamma.vercel.app")
     @GetMapping("/api/books")
     public List<Book> findAll(){
         // recuperar y devolver los libros de base de datos

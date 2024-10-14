@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "https://libros-gamma.vercel.app/") // acceso cors
+@CrossOrigin(origins = "https://libros-gamma.vercel.app/") // acceso cors controller
 public class BookController {
 
     // atributos
